@@ -1,14 +1,11 @@
 code, pre {
-  padding: 7px;
   font-size: $code-font-size;
   font-family: $code-font-family;
 }
+pre {
 
-code {
-  padding: 3px 5px;
-  border-radius: 4px;
+  padding: 8px;
 }
-
 // highlight.js
 figure.highlight {
   margin: 1em 0;
