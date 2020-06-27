@@ -174,7 +174,7 @@ $content-table-border-color: darken($deputy-color, 3%) !default;
 
 // ========== Code ========== //
 // Color of the code.
-$code-color: #c7254e !default;
+$code-color: $global-font-color !default;
 
 // Font size of code.
 $code-font-size: 0.9em !default;
@@ -244,7 +244,7 @@ $code-type-list: (
 ) !default;
 
 // Color of the code background.
-$code-background: $deputy-color !default;
+$code-background: $global-background !default;
 
 
 // ========== Pagination ========== //
