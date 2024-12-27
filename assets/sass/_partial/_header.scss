@@ -13,13 +13,19 @@
   border-bottom: 2px solid $gray;
   padding: 12px;
 
+  .language-selector {
+    float: right;
+  }
 }
-
 
 @include max-screen() {
   .header {
     padding: 0 0;
     text-align: center;
     flex-direction: column;
+
+    .language-selector {
+      display: none;
+    }
   }
 }
